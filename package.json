@@ -1,0 +1,23 @@
+{
+  "name": "cross-line-drawer",
+  "version": "1.0.0",
+  "description": "Web component for drawing cross line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["webcomponent", "crossline", "line", "drawer"],
+  "author": "Anton Onyshchenko",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AntonOnyshch/cross-line-drawer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AntonOnyshch/cross-line-drawer/issues"
+  },
+  "homepage": "https://github.com/AntonOnyshch/cross-line-drawer/blob/main/README.md",
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}

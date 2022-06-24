@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Cross Line Drawer</title>
+  </head>
+  <body id="app">
+    <style>
+      html {
+        height: 100%;
+      }
+      #app {
+        display: flex;
+        height: 98%;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+  }
+    #centerDiv {
+      display: grid;
+    }
+    #axis {
+      position: relative;
+    }
+    #input-ctn {
+      grid-column: 1 / 3;
+      display: flex;
+      flex-direction: column;
+    }
+    </style>
+    <div></div>
+    <div id="centerDiv">
+      <axis-drawer id="axis"></axis-drawer>
+    </div>
+    <div></div>
+    <div id="input-ctn">
+      <label for="rangeByY">Horizontal</label>
+      <input id="rangeByY" type="range" min="0"/>
+      <label for="rangeByX">Vertical</label>
+      <input id="rangeByX" type="range" min="0"/>
+    </div>
+    <script type="module" src="./index.js"></script>
+  </body>
+</html>
